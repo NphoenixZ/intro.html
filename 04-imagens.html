@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h3>Elemento Picture</h3>
+    <p>Utilizamos o elemento &lt; picture &gt; para controlarmos
+    qual arquivo sera utilizado de acordo com determinadas condições.</p>
+    <picture>
+        <source media="(max-width: 600px)" srcset="link">
+        <source media="(min-width: 601px)" srcset="colocar na pasta -desktop">
+
+        <!-- img como fallback (plano B) caso nao seja possivel utilizar as imagens
+        do source acima-->
+        <img src="colocar na pasta" alt="belo pôr do sol no Ceara">
+    </picture>
+    
+    <hr>
+    <h2>Sobre os tipos de imagens</h2>
+    <p>Você pode encontrar uma acervo muito grande de tipos de imagens.
+        a escolha certa da imagem pode elevar a performance do seu site</p>
+    <ul>
+        <li> <strong> JPEG/JPG </strong>: Bom para fotografias, produtos
+        autografados, imagens com muitas cores e detalhes. Se você tentar otimizar
+        demais, a perda de qualidade se torna visível. </li>
+
+        <li> <strong> PNG </strong>: Suporta transparencia e é muit bom para 
+        imagens que precisam preservar certos detalhes, como por exemplo: logos,
+        imagens que precisam de transparencia e etc. </li>
+
+        <li> <strong> WEBP </strong>: Formato recente desenvolvido com foco na web.
+        Além de também suportar transparencia, também consegue trabalhar com
+        imagens em alta definição. Excelente escolha para fotografias, Imagens
+        de produtos, imagens com transparencia e imagens gerais</li>
+        
+        <li> <strong> AVIF </strong>: é um formato mais recente e também muito
+        eficiente. É excente, para fotografias, imagens grandes, sites onde
+        desempenho e economia de dados são extremamente importantes. </li>
+
+        <li> <strong> SVG </strong>: É um elemento vetorial, excelente para logos,
+        icones, simbolos e etc.</li>
+   
+   
+    </ul>
+
+</body>
+</html>
